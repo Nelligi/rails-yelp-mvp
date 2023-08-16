@@ -1,0 +1,7 @@
+<div class="container mt-5">
+<h1><strong><%= @restaurant.name %></strong></h1>
+<p><%= @restaurant.address %></p>
+<p><%= @restaurant.phone_number %></p>
+<p><%= @restaurant.category.capitalize %></p>
+<%=link_to "back", restaurants_path, class: "btn btn-primary" %>
+</div>
